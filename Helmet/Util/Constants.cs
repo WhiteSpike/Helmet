@@ -15,10 +15,6 @@ namespace Helmet.Misc.Util
         internal const int HELMET_WEIGHT_DEFAULT = 65;
         internal const string HELMET_WEIGHT_DESCRIPTION = "Weight (in lbs)";
 
-        internal const string HELMET_TWO_HANDED_KEY = "Two Handed Item";
-        internal const bool HELMET_TWO_HANDED_DEFAULT = true;
-        internal const string HELMET_TWO_HANDED_DESCRIPTION = "One or two handed item.";
-
         internal const string HELMET_CONDUCTIVE_KEY = "Conductive";
         internal const bool HELMET_CONDUCTIVE_DEFAULT = true;
         internal const string HELMET_CONDUCTIVE_DESCRIPTION = "Wether it attracts lightning to the item or not. (Or other mechanics that rely on item being conductive)";

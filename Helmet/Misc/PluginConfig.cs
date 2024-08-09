@@ -13,7 +13,6 @@ namespace Helmet.Misc
         [field: SyncedEntryField] public SyncedEntry<bool> SCAN_NODE { get; set; }
         [field: SyncedEntryField] public SyncedEntry<int> PRICE { get; set; }
         [field: SyncedEntryField] public SyncedEntry<int> WEIGHT { get; set; }
-        [field: SyncedEntryField] public SyncedEntry<bool> TWO_HANDED { get; set; }
         [field: SyncedEntryField] public SyncedEntry<bool> DROP_AHEAD_PLAYER { get; set; }
         [field: SyncedEntryField] public SyncedEntry<bool> GRABBED_BEFORE_START { get; set; }
         [field: SyncedEntryField] public SyncedEntry<bool> CONDUCTIVE { get; set; }
@@ -27,7 +26,6 @@ namespace Helmet.Misc
 
             PRICE = cfg.BindSyncedEntry(topSection, Constants.HELMET_PRICE_KEY, Constants.HELMET_PRICE_DEFAULT, Constants.HELMET_PRICE_DESCRIPTION);
             WEIGHT = cfg.BindSyncedEntry(topSection, Constants.HELMET_WEIGHT_KEY, Constants.HELMET_WEIGHT_DEFAULT, Constants.HELMET_WEIGHT_DESCRIPTION);
-            TWO_HANDED = cfg.BindSyncedEntry(topSection, Constants.HELMET_TWO_HANDED_KEY, Constants.HELMET_TWO_HANDED_DEFAULT, Constants.HELMET_TWO_HANDED_DESCRIPTION);
             SCAN_NODE = cfg.BindSyncedEntry(topSection, Constants.HELMET_SCAN_NODE_KEY, Constants.ITEM_SCAN_NODE_DEFAULT, Constants.ITEM_SCAN_NODE_DESCRIPTION);
             DROP_AHEAD_PLAYER = cfg.BindSyncedEntry(topSection, Constants.HELMET_DROP_AHEAD_PLAYER_KEY, Constants.HELMET_DROP_AHEAD_PLAYER_DEFAULT, Constants.HELMET_DROP_AHEAD_PLAYER_DESCRIPTION);
             CONDUCTIVE = cfg.BindSyncedEntry(topSection, Constants.HELMET_CONDUCTIVE_KEY, Constants.HELMET_CONDUCTIVE_DEFAULT, Constants.HELMET_CONDUCTIVE_DESCRIPTION);
