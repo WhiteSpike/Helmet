@@ -12,7 +12,7 @@ namespace Helmet.Misc.Util
         internal const string HELMET_PRICE_DESCRIPTION = $"Price for {HelmetBehaviour.ITEM_NAME}.";
 
         internal const string HELMET_WEIGHT_KEY = "Item weight";
-        internal const int HELMET_WEIGHT_DEFAULT = 65;
+        internal const int HELMET_WEIGHT_DEFAULT = 10;
         internal const string HELMET_WEIGHT_DESCRIPTION = "Weight (in lbs)";
 
         internal const string HELMET_CONDUCTIVE_KEY = "Conductive";

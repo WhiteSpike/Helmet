@@ -71,7 +71,7 @@ namespace Helmet
             helmetItem.restingRotation = new Vector3(0f, 0f, 0f);
             helmetItem.rotationOffset = new Vector3(90f, 90f, 0f);
             helmetItem.positionOffset = new Vector3(-0.25f, 0f, 0f);
-            helmetItem.weight = 1f + ((Config.WEIGHT-1) / 100f);
+            helmetItem.weight = 1f + (Config.WEIGHT / 100f);
             helmetItem.twoHanded = false;
             helmetItem.itemIcon = bundle.LoadAsset<Sprite>(root + "Icon.png");
             helmetItem.spawnPrefab = bundle.LoadAsset<GameObject>(root + "Helmet.prefab");
